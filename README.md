@@ -81,8 +81,6 @@ npm run web
 - ✅ Componente para mostrar paletas de colores
 - ✅ Tema de colores cremas consistente
 - ✅ Navegación entre pantallas
-- ⏳ Guardado de paletas en Firestore (por implementar)
-- ⏳ Historial de paletas (por implementar)
 - ⏳ Exploración de paletas públicas (por implementar)
 
 ## Próximos Pasos
