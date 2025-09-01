@@ -10,7 +10,7 @@ import {
 } from 'react-native';
 import * as Clipboard from 'expo-clipboard';
 import { globalStyles, colors } from '../styles/globalStyles';
-import { saveUserPalette } from '../services/paletteService';
+import { savePalette } from '../services/paletteService';
 import { auth } from '../services/firebase';
 import {
   sharePaletteAsText,
@@ -149,10 +149,9 @@ const ColorPaletteCard = ({ colorPalette = [] }) => {
 
             setSaving(true);
             try {
-              const result = await saveUserPalette(
-                auth.currentUser.uid,
-                paletteName.trim(),
-                colorPalette
+              const result = await savePalette(
+                colorPalette,
+                paletteName.trim()
               );
 
               if (result.success) {

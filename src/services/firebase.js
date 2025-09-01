@@ -12,7 +12,7 @@ const firebaseConfig = {
   apiKey: 'AIzaSyCuL5azFBmpASJKP_aAwkecSfodQU6Cse8',
   authDomain: 'color-palette-generator-95cb9.firebaseapp.com',
   projectId: 'color-palette-generator-95cb9',
-  storageBucket: 'color-palette-generator-95cb9.firebasestorage.app',
+  storageBucket: 'color-palette-generator-95cb9.appspot.com', // Corregido
   messagingSenderId: '515891411497',
   appId: '1:515891411497:web:e6b7e473a922a5d4f83a38',
 };
